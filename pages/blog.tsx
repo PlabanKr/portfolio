@@ -1,14 +1,13 @@
 import type { NextPage } from 'next';
 import Navbar from '../components/navbar/navbar';
-import styles from '../styles/Home.module.css';
 
-const Home: NextPage = () => {
+const Blog: NextPage = () => {
   return (
     <div>
       <Navbar />
-      Home Page
+      Blog Page
     </div>
   )
 }
 
-export default Home
+export default Blog;
