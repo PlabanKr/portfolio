@@ -2,6 +2,7 @@
   background-color: white;
   min-width: 60vw;
   padding: 2rem 8rem;
+  margin-bottom: 2rem;
 }
 
 .title {
@@ -43,6 +44,8 @@
 @media (max-width: 450px) {
   .cardBody {
     padding: 1.12rem 2rem;
+    min-width: 85vw;
+    max-width: 90vw;
   }
   .title {
     font-size: 1.56rem;
