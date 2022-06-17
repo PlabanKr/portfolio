@@ -5,7 +5,7 @@ import styles from "../../styles/components/HomeComponent.module.css";
 const HomeComponent: NextComponentType = () => {
     return <>
         <h1 className={styles.header1}>
-            <p className={styles.greet}>Hi, I'm</p>
+            <p className={styles.greet}>Hi, I&apos;m</p>
             Plaban Kumar Mondal
         </h1>
         <div className={`${styles.secondaryCol}`}>
