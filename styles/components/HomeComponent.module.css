@@ -1,0 +1,50 @@
+.header1 {
+  margin-top: 8rem;
+  font-size: 5rem;
+  user-select: none;
+}
+
+.greet {
+  margin: 0;
+  color: var(--secondary-col);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.secondaryCol {
+  color: var(--secondary-col);
+  font-size: 2rem;
+}
+
+.socialLinks {
+  padding: 0.5rem 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialLinks > a:hover {
+  color: var(--primary-col);
+}
+
+.contactDiv {
+  margin: 7rem;
+}
+
+.contactDiv > a {
+  color: white;
+  background-color: var(--primary-col);
+  font-size: 1.6rem;
+  padding: 1.5rem 6rem;
+}
+
+.contactDiv > a:hover {
+  background-color: var(--secondary-col);
+}
+
+.skills {
+  margin-top: 10rem;
+}
+
+.skills > h3 {
+  font-size: 3rem;
+}

@@ -1,0 +1,41 @@
+.cardBody {
+  background-color: white;
+  min-width: 60vw;
+  padding: 2rem 8rem;
+}
+
+.title {
+  font-size: 2.8rem;
+  color: var(--primary-col);
+}
+
+.description {
+  font-size: 1.5rem;
+  color: var(--secondary-col);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.source {
+  background-color: var(--primary-col);
+  color: white;
+  padding: 0.6rem 2rem;
+}
+
+.source:hover {
+  background-color: var(--secondary-col);
+}
+
+.live {
+  background-color: var(--azure-col);
+  color: white;
+  padding: 0.6rem 2rem;
+}
+
+.live:hover {
+  background-color: var(--cobalt-col);
+}

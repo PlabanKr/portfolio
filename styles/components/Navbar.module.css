@@ -15,8 +15,10 @@
 .link {
   padding: 0.5rem 0;
   margin: 0 2rem;
+  color: var(--secondary-col);
 }
 
 .active {
+  color: #000000;
   border-bottom: 2px solid black;
 }

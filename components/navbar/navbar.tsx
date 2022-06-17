@@ -1,7 +1,7 @@
 import type { NextComponentType } from "next";
 import Link from "next/link";
 import { useRouter, NextRouter } from "next/router";
-import styles from "../../styles/Navbar.module.css";
+import styles from "../../styles/components/Navbar.module.css";
 
 const Navbar: NextComponentType = () => {
   const router: NextRouter = useRouter();
@@ -20,15 +20,15 @@ const Navbar: NextComponentType = () => {
             Home
           </a>
         </Link>
-        <Link href="/blog">
+        <Link href="/projects">
           <a
             className={
-              router.pathname == "/blog"
+              router.pathname == "/projects"
                 ? `${styles.link} ${styles.active}`
                 : `${styles.link}`
             }
           >
-            Blog
+            Projects
           </a>
         </Link>
       </div>

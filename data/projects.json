@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hash Generating Site",
+        "description": "A site to quickly hash some string with SHA256, MD5 etc. algorithms.",
+        "repo": "https://github.com/PlabanKr/hash-generating-site",
+        "live": {
+            "status": true,
+            "url": "https://hash-generating-site.vercel.app/"
+        }
+    }
+]
