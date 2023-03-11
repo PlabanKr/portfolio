@@ -9,27 +9,25 @@ const Navbar: React.FC = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.linkGroup}>
-        <Link href="/">
-          <a
-            className={
-              router.pathname == "/"
-                ? `${styles.link} ${styles.active}`
-                : `${styles.link}`
-            }
-          >
-            Home
-          </a>
+        <Link
+          href="/"
+          className={
+            router.pathname == "/"
+              ? `${styles.link} ${styles.active}`
+              : `${styles.link}`
+          }
+        >
+          Home
         </Link>
-        <Link href="/projects">
-          <a
-            className={
-              router.pathname == "/projects"
-                ? `${styles.link} ${styles.active}`
-                : `${styles.link}`
-            }
-          >
-            Projects
-          </a>
+        <Link
+          href="/projects"
+          className={
+            router.pathname == "/projects"
+              ? `${styles.link} ${styles.active}`
+              : `${styles.link}`
+          }
+        >
+          Projects
         </Link>
       </div>
     </nav>
