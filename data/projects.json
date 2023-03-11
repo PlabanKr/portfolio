@@ -1,5 +1,23 @@
 [
     {
+        "title": "Godo Backend",
+        "description": "Backend for a todo app written in Golang",
+        "repo": "https://github.com/PlabanKr/godo-backend",
+        "live": {
+            "status": false,
+            "url": ""
+        }
+    },
+    {
+        "title": "Todo Express",
+        "description": "Backend for a todo app written in Express.js implemented in MongoDB, Postgres and Array as database. Each branch is a different database.",
+        "repo": "https://github.com/PlabanKr/godo-backend",
+        "live": {
+            "status": false,
+            "url": ""
+        }
+    },
+    {
         "title": "Schedule Backend",
         "description": "Backend for schedule written in Express.js",
         "repo": "https://github.com/PlabanKr/schedule-backend",
