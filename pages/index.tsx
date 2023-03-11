@@ -1,10 +1,9 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Navbar from '../components/navbar/navbar';
-import HomeComponent from '../components/home/homeComponent';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import Navbar from "../components/navbar/navbar";
+import HomeComponent from "../components/home/homeComponent";
+import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div>
       <Head>
@@ -16,7 +15,7 @@ const Home: NextPage = () => {
         <HomeComponent />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

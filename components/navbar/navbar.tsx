@@ -1,9 +1,9 @@
-import type { NextComponentType } from "next";
+import React from "react";
 import Link from "next/link";
 import { useRouter, NextRouter } from "next/router";
 import styles from "../../styles/components/Navbar.module.css";
 
-const Navbar: NextComponentType = () => {
+const Navbar: React.FC = () => {
   const router: NextRouter = useRouter();
 
   return (
